@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿using UdonSharp;
+using UnityEngine;
+using VRC.SDKBase;
+using VRC.Udon;
 
-public class WaypointFollow : MonoBehaviour {
+public class WaypointFollow : UdonSharpBehaviour {
     public Transform[] waypoints;
     public Transform objectToMove;
     public float speed = 0.25f;
@@ -14,8 +17,14 @@ public class WaypointFollow : MonoBehaviour {
     private int lastIndex;
     private int waypointIndex;
     private float currentSpeed = 0f;
+    private VRCPlayerApi lp;
 
     void Start() {
+        lp = Networking.LocalPlayer;
+
+        Debug.Log("Local Player");
+        Debug.Log(lp.GetPosition());
+
         if (waypoints != null && waypoints.Length > 0) {
             objectToMove.position = waypoints[0].position;
             lastIndex = 0;

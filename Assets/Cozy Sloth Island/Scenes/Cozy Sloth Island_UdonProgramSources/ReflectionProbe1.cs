@@ -1,7 +1,10 @@
 ﻿
+using UdonSharp;
 using UnityEngine;
+using VRC.SDKBase;
+using VRC.Udon;
 
-public class ReflectionProbe1 : MonoBehaviour
+public class ReflectionProbe1 : UdonSharpBehaviour
 {
     public GameObject probeGameObject;
     public int renderInterval = 1000;
