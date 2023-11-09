@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: dede619bf8cb6d14bb1c504bc1eb2433
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 6967357957411989574
+    second: Pool_Chair|Pool_Chair|Pool_Chair|AreaAction.001|Pool_Chair|AreaAction.001
+  - first:
+      74: 9220672178849665394
+    second: Pool_Chair|Pool_Chair|Pool_Chair|AreaAction.002|Pool_Chair|AreaAction.002
+  - first:
+      74: -1721732274244646304
+    second: Pool_Chair|Pool_Chair|Pool_Chair|AreaAction|Pool_Chair|AreaAction
+  - first:
+      74: 3264706420909431135
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CameraAction|Pool_Chair|CameraAction
+  - first:
+      74: 5769950953122741784
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.001|Pool_Chair|CubeAction.001
+  - first:
+      74: 383338879693743100
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.002|Pool_Chair|CubeAction.002
+  - first:
+      74: -360822971078791845
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.004|Pool_Chair|CubeAction.004
+  - first:
+      74: 2572407592004954166
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.006|Pool_Chair|CubeAction.006
+  - first:
+      74: 3097436624020890920
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.010|Pool_Chair|CubeAction.010
+  - first:
+      74: 9174953969277447485
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.011|Pool_Chair|CubeAction.011
+  - first:
+      74: -6171898879556405255
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.012|Pool_Chair|CubeAction.012
+  - first:
+      74: 1532695512508828438
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.013|Pool_Chair|CubeAction.013
+  - first:
+      74: -3512478944481005578
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.014|Pool_Chair|CubeAction.014
+  - first:
+      74: -7512926544667243530
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CubeAction.015|Pool_Chair|CubeAction.015
+  - first:
+      74: 1528448438604382024
+    second: Pool_Chair|Pool_Chair|Pool_Chair|CylinderAction.001|Pool_Chair|CylinderAct
+  - first:
+      74: 5924763770041529633
+    second: Pool_Chair|Pool_Chair|Pool_Chair|PlaneAction.001|Pool_Chair|PlaneAction.00
+  - first:
+      74: -8481677129900682047
+    second: Pool_Chair|Pool_Chair|Pool_Chair|PlaneAction.003|Pool_Chair|PlaneAction.00
+  - first:
+      74: 1934356794731633146
+    second: Pool_Chair|Pool_Chair|Pool_Chair|PlaneAction.004|Pool_Chair|PlaneAction.00
+  - first:
+      74: 4032050127387523832
+    second: Pool_Chair|Pool_Chair|Pool_Chair|PlaneAction.005|Pool_Chair|PlaneAction.00
+  - first:
+      74: 1761394035838819968
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.001|Pool_Chair|TableAction.00
+  - first:
+      74: -8288673685460762749
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.002|Pool_Chair|TableAction.00
+  - first:
+      74: 540209986809331160
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.007|Pool_Chair|TableAction.00
+  - first:
+      74: 5168022082283641028
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.009|Pool_Chair|TableAction.00
+  - first:
+      74: -464866236836764405
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.010|Pool_Chair|TableAction.01
+  - first:
+      74: -6963195390990130991
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.011|Pool_Chair|TableAction.01
+  - first:
+      74: 3548557873192724975
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.015|Pool_Chair|TableAction.01
+  - first:
+      74: 3896343764656530611
+    second: Pool_Chair|Pool_Chair|Pool_Chair|TableAction.016|Pool_Chair|TableAction.01
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
