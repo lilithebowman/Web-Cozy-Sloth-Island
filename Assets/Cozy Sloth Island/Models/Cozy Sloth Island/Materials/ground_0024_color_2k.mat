@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ground_0024_color_2k
-  m_Shader: {fileID: 4800000, guid: 044744ced35f660428c5b5f0477a6e1d, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _BAKERY_NONE _LIGHTMAPSPECULAR _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -110,7 +110,7 @@ Material:
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _UVTransform0: {r: 1, g: 0, b: 0, a: 0}
     - _UVTransform1: {r: 0, g: 1, b: 0, a: 0}
     - _UVTransform2: {r: 0, g: 0, b: 1, a: 0}
