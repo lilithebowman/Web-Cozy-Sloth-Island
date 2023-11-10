@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_COLUMN_COOD
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _BAKERY_NONE _LIGHTMAPSPECULAR
+  m_ShaderKeywords: _BAKERY_NONE _GLOSSYREFLECTIONS_OFF _LIGHTMAPSPECULAR _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7c9d073f4ae981848a5b548f0e9e3409, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DFG:
@@ -58,11 +58,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -109,7 +109,7 @@ Material:
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
     - _Glossiness: 0
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
@@ -132,6 +132,6 @@ Material:
     - _specularAntiAliasingVariance: 0.15
     m_Colors:
     - _BaseColor: {r: 0.70755553, g: 0.38929677, b: 0.20689571, a: 1}
-    - _Color: {r: 0.45882356, g: 0.1254902, b: 0.03529412, a: 1}
+    - _Color: {r: 0.028301895, g: 0.01738697, b: 0.006808474, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

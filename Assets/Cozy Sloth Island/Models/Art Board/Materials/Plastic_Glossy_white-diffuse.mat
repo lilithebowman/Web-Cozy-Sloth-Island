@@ -120,7 +120,7 @@ Material:
     - _Emission: 0
     - _EnvironmentReflections: 1
     - _ExposureOcclusion: 0.2
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0.85
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _LTCGI: 0

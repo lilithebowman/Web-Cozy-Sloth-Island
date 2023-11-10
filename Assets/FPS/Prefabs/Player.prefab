@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 8303093099919959869}
   audioSource: {fileID: 1272397862697293493}
-  gravityDownForce: 9.6
+  gravityDownForce: 20
   groundCheckLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -502,7 +502,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.001
-  m_MinMoveDistance: 0
+  m_MinMoveDistance: 0.1
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &6268538116984687401
 MonoBehaviour:

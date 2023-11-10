@@ -108,12 +108,12 @@ Material:
     - _EnvironmentReflections: 1
     - _ExposureOcclusion: 0.2
     - _GlossMapScale: 1
-    - _Glossiness: 0.573
+    - _Glossiness: 0.298
     - _GlossyReflections: 1
     - _LTCGI: 0
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
-    - _Metallic: 0.679
+    - _Metallic: 0.786
     - _Mode: 0
     - _NormalMapShadows: 0
     - _OcclusionStrength: 1
