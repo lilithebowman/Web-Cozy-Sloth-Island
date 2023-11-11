@@ -17,6 +17,8 @@ public class Destructable : MonoBehaviour
     void OnDamaged(float damage, GameObject damageSource)
     {
         // TODO: damage reaction
+		Rigidbody rigidbody = m_Health.GetComponent<Rigidbody>();
+		rigidbody.AddForce(transform.up * damage);
     }
 
     void OnDie()
