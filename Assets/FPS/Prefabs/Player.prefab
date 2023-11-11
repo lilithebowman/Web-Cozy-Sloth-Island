@@ -399,7 +399,7 @@ MonoBehaviour:
   killHeight: -50
   rotationSpeed: 200
   aimingRotationMultiplier: 0.4
-  jumpForce: 12
+  jumpForce: 15
   cameraHeightRatio: 0.8
   capsuleHeightStanding: 1.8
   capsuleHeightCrouching: 0.9
