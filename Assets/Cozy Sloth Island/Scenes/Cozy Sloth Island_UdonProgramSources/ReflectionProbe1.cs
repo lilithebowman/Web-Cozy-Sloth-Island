@@ -1,27 +1,25 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ReflectionProbe1 : MonoBehaviour
 {
     public GameObject probeGameObject;
-    public int renderInterval = 1000;
-    private ReflectionProbe probeComponent;
-    public int intervalCounter;
+    public GameObject playerGameObject;
+    public Vector3 offset = new Vector3(0.0f, 0.0f, 1.0f);
+    public Vector3 betweenEyes;
+    public Vector3 head;
+
     void Start() {
-        intervalCounter = renderInterval;
-        if (probeGameObject) {
-            // Add the reflection probe component
-            probeComponent = probeGameObject.GetComponent<ReflectionProbe>();
-        }
+#if UNITY_STANDALONE
+        probeGameObject.SetActive(true);
+#elif UNITY_EDITOR
+        probeGameObject.SetActive(true);
+#else
+        probeGameObject.SetActive(false);
+#endif
     }
 
     void LateUpdate() {
-        intervalCounter--;
-
-        if (intervalCounter == 0) {
-            probeComponent.RenderProbe();
-            Debug.Log("Realtime Reflection Probe Updated");
-            intervalCounter = renderInterval;
-        }
+        // move realtime probe to player head
+        probeGameObject.transform.position = playerGameObject.transform.position;
     }
 }

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Walmart-Dolphin-Towel 3
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: fece619811077234d84ddd878e3f02fe, type: 3}
   m_ShaderKeywords: FXAA_KEEP_ALPHA _BAKERY_NONE _GLOSSYREFLECTIONS_OFF _LIGHTMAPSPECULAR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
