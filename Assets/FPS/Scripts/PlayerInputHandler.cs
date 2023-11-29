@@ -19,23 +19,24 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void Start()
     {
-        m_PlayerCharacterController = GetComponent<PlayerCharacterController>();
-        DebugUtility.HandleErrorIfNullGetComponent<PlayerCharacterController, PlayerInputHandler>(m_PlayerCharacterController, this, gameObject);
-        m_GameFlowManager = FindObjectOfType<GameFlowManager>();
-        DebugUtility.HandleErrorIfNullFindObject<GameFlowManager, PlayerInputHandler>(m_GameFlowManager, this);
-
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
-    private void LateUpdate()
-    {
-        m_FireInputWasHeld = GetFireInputHeld();
+    private void LateUpdate() {
+        if (m_GameFlowManager != null) {
+            m_FireInputWasHeld = GetFireInputHeld();
+        } else {
+            m_PlayerCharacterController = GetComponent<PlayerCharacterController>();
+            m_GameFlowManager = FindObjectOfType<GameFlowManager>();
+        }
     }
 
-    public bool CanProcessInput()
-    {
-        return Cursor.lockState == CursorLockMode.Locked && !m_GameFlowManager.gameIsEnding;
+    public bool CanProcessInput() {
+        if (m_GameFlowManager != null) {
+            return Cursor.lockState == CursorLockMode.Locked && !m_GameFlowManager.gameIsEnding;
+        }
+        return false;
     }
 
     public Vector3 GetMoveInput()

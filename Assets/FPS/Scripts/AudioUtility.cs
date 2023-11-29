@@ -5,6 +5,12 @@ public class AudioUtility
 {
     static AudioManager m_AudioManager;
 
+    void Update () {
+        if (!m_AudioManager) {
+            m_AudioManager = GameObject.FindObjectOfType<AudioManager>();
+        }
+	}
+
     public enum AudioGroups
     {
         DamageTick,
@@ -38,8 +44,7 @@ public class AudioUtility
 
     public static AudioMixerGroup GetAudioGroup(AudioGroups group)
     {
-        if (m_AudioManager == null)
-            m_AudioManager = GameObject.FindObjectOfType<AudioManager>();
+        if (!m_AudioManager) return null;
 
         var groups = m_AudioManager.FindMatchingGroups(group.ToString());
 

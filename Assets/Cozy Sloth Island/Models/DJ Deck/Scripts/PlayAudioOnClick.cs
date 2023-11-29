@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayAudioOnClick : MonoBehaviour {
-
     public GameObject gameObject;
-    public Camera camera;
 
     private AudioSource audioSource;
     // Start is called before the first frame update
@@ -16,6 +14,7 @@ public class PlayAudioOnClick : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         if (Input.GetMouseButtonDown(0)) { // if left button pressed...
+            Camera camera = GameObject.FindObjectOfType<Camera>();
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)) {

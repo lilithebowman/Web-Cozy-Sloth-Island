@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayVideoOnClick : MonoBehaviour {
     public GameObject gameObject;
-    public Camera camera;
     public Texture renderTexture;
     public Texture offStateTexture;
 
@@ -19,6 +18,7 @@ public class PlayVideoOnClick : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         if (Input.GetMouseButtonDown(0)) { // if left button pressed...
+            Camera camera = GameObject.FindObjectOfType<Camera>();
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)) {

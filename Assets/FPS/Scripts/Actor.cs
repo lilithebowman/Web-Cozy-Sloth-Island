@@ -11,15 +11,17 @@ public class Actor : MonoBehaviour
 
     ActorsManager m_ActorsManager;
 
-    private void Start()
+    private void Update()
     {
-        m_ActorsManager = GameObject.FindObjectOfType<ActorsManager>();
-        DebugUtility.HandleErrorIfNullFindObject<ActorsManager, Actor>(m_ActorsManager, this);
+        if (!m_ActorsManager) {
+            m_ActorsManager = GameObject.FindObjectOfType<ActorsManager>();
+            // DebugUtility.HandleErrorIfNullFindObject<ActorsManager, Actor>(m_ActorsManager, this);
+        } else {
 
-        // Register as an actor
-        if (!m_ActorsManager.actors.Contains(this))
-        {
-            m_ActorsManager.actors.Add(this); 
+            // Register as an actor
+            if (!m_ActorsManager.actors.Contains(this)) {
+                m_ActorsManager.actors.Add(this);
+            }
         }
     }
 

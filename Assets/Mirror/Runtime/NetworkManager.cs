@@ -82,14 +82,14 @@ namespace Mirror
         /// <para>For clients, this is the address of the server that is connected to. For servers, this is the local address.</para>
         /// </summary>
         [FormerlySerializedAs("m_NetworkAddress")]
-        public string networkAddress = "localhost";
+        public string networkAddress = "lilithebowman.com";
 
         /// <summary>
         /// The maximum number of concurrent network connections to support.
         /// <para>This effects the memory usage of the network layer.</para>
         /// </summary>
         [FormerlySerializedAs("m_MaxConnections")]
-        public int maxConnections = 4;
+        public int maxConnections = 16;
 
         /// <summary>
         /// Number of active player objects across all connections on the server.
@@ -240,10 +240,11 @@ namespace Mirror
             // some transports might not be ready until Start.
             //
             // (tick rate is applied in StartServer!)
-            if (isHeadless && startOnHeadless)
-            {
+            if (isHeadless && startOnHeadless) {
                 StartServer();
-            }
+            } else {
+                StartClient();
+			}
         }
 
         // NetworkIdentity.UNetStaticUpdate is called from UnityEngine while LLAPI network is active.
