@@ -13,8 +13,9 @@ public class PlayAudioOnClick : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (Input.GetMouseButtonDown(0)) { // if left button pressed...
-            Camera camera = GameObject.FindObjectOfType<Camera>();
+		Camera camera = GameObject.FindObjectOfType<Camera>();
+            
+        if (Input.GetMouseButtonDown(0) && camera != null) { // if left button pressed...
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)) {
