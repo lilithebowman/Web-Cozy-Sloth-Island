@@ -38,11 +38,11 @@ public class Compass : MonoBehaviour
             float heightDifference = 0;
             float angle;
 
-            if (element.Value.isDirection)
+            if (element.Value.isDirection && m_PlayerTransform)
             {
                 angle = Vector3.SignedAngle(m_PlayerTransform.forward, element.Key.transform.localPosition.normalized, Vector3.up);
             }
-            else
+            else if (m_PlayerTransform)
             {
                 Vector3 targetDir = (element.Key.transform.position - m_PlayerTransform.position).normalized;
                 targetDir = Vector3.ProjectOnPlane(targetDir, Vector3.up);
@@ -56,7 +56,9 @@ public class Compass : MonoBehaviour
 
                 distanceRatio = directionVector.magnitude / distanceMinScale;
                 distanceRatio = Mathf.Clamp01(distanceRatio);
-            }
+            } else {
+				return;
+			}
 
             if (angle > -visibilityAngle / 2 && angle < visibilityAngle / 2)
             {
