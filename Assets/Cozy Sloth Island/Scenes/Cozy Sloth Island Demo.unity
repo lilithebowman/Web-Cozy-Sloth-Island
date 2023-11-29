@@ -132,6 +132,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9044552896313582721, guid: fb8d3476a331e5b48bddec799e9aad5e,
         type: 3}
+      propertyPath: onlineScene
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044552896313582721, guid: fb8d3476a331e5b48bddec799e9aad5e,
+        type: 3}
+      propertyPath: offlineScene
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044552896313582721, guid: fb8d3476a331e5b48bddec799e9aad5e,
+        type: 3}
       propertyPath: playerPrefab
       value: 
       objectReference: {fileID: 722615306749144832, guid: b4c9f6a5caf575c4db8cb6685c818bd7,
