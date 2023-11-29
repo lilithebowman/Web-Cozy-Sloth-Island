@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FPS/Scenes/IntroMenu.unity
+    path: Assets/Cozy Sloth Island/Scenes/Cozy Sloth Island Demo.unity
     guid: 56e3faabc5bb30f49a68bb8f1292f988
   - enabled: 1
     path: Assets/FPS/Scenes/WinScene.unity
