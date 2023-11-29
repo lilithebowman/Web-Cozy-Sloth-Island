@@ -61,7 +61,7 @@ namespace Mirror
         /// </summary>
         [Scene]
         [FormerlySerializedAs("m_OfflineScene")]
-        public string offlineScene = "";
+        public string offlineScene = "IntroMenu";
 
         /// <summary>
         /// The scene to switch to when online.
@@ -69,7 +69,7 @@ namespace Mirror
         /// </summary>
         [Scene]
         [FormerlySerializedAs("m_OnlineScene")]
-        public string onlineScene = "";
+        public string onlineScene = "Cozy Sloth Island Demo";
 
         [Header("Network Info")]
 
@@ -307,6 +307,7 @@ namespace Mirror
 
             if (LogFilter.Debug) Debug.Log("NetworkManager StartServer");
             isNetworkActive = true;
+			transform.gameObject.GetComponent<NetworkManagerHUD>().enabled = false;
 
             // Only change scene if the requested online scene is not blank, and is not already loaded
             string loadedSceneName = SceneManager.GetActiveScene().name;

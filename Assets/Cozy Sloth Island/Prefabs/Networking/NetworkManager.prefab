@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9044552896313582720}
   - component: {fileID: 9044552896313582783}
   m_Layer: 0
-  m_Name: NetworkManager 1
+  m_Name: NetworkManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,14 +49,14 @@ MonoBehaviour:
   runInBackground: 1
   startOnHeadless: 1
   serverTickRate: 30
-  showDebugMessages: 0
-  offlineScene: Cozy Sloth Island Demo
+  showDebugMessages: 1
+  offlineScene: 
   onlineScene: Cozy Sloth Island Demo
   transport: {fileID: 9044552896313582720}
-  networkAddress: localhost
-  maxConnections: 4
+  networkAddress: lilithebowman.com
+  maxConnections: 16
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 1804960585201536413, guid: b4c9f6a5caf575c4db8cb6685c818bd7,
+  playerPrefab: {fileID: 722615306749144832, guid: b4c9f6a5caf575c4db8cb6685c818bd7,
     type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
