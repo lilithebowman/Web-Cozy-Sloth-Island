@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Cozy Sloth Island/Scenes/Cozy Shooter.unity
+    guid: 752add39ba6147644971b68a59234437
+  - enabled: 1
     path: Assets/Cozy Sloth Island/Scenes/NetworkManager.unity
     guid: fe7b735cda46a1a4eaca26218bd3cf38
   - enabled: 1
