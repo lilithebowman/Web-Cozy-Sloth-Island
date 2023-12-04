@@ -366,7 +366,7 @@ Material:
     - _GenerateFurGroup: 0
     - _GenerateHairGroup: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.019
     - _GlossyReflections: 1
     - _HairBlur: 0.25
     - _HairClipping: 0.72
@@ -415,7 +415,7 @@ Material:
     - _LTCGI: 0
     - _LightPenetrationDepth: 0.1
     - _LightWraparound: 7.5
-    - _LightingGroup: 0
+    - _LightingGroup: 1
     - _LightmapSpecular: 1
     - _LightmapSpecularMaxSmoothness: 1
     - _MainMapsGroup: 1
@@ -438,7 +438,7 @@ Material:
     - _MatcapTextureChannel: 0
     - _MaxBrightness: 10
     - _MaximumLayers: 1
-    - _Metallic: 0
+    - _Metallic: 0.038
     - _MinBrightness: -1
     - _MirrorShowHide: 0
     - _Mode: 0
@@ -448,7 +448,7 @@ Material:
     - _NormalMapShadows: 0
     - _OcclusionGroup: 0
     - _OcclusionStrength: 1
-    - _OverallBrightness: 1
+    - _OverallBrightness: 0.75
     - _OverrideDistanceBias: 0
     - _OverrideQualityBias: 0
     - _OverrideScale: 1
